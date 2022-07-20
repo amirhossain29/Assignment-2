@@ -288,11 +288,11 @@ hr{
         visibility: hidden; 
     }      
 }
-@media screen and (min-width:993px) and (max-width:1400px) {
-    .main-part{
-        margin: 5%;
+@media screen and (min-width:993px) and (max-width:1400px){
+    .middle-container{
+        padding-left: 30px;
     }
-    .main-container{
-        width: 100%;
+    .match-time{
+        width: 270px;
     }
 }

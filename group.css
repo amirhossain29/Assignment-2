@@ -10,7 +10,6 @@ td{
 .group{
     width: 100%;
     box-shadow: 1px 1px 6px gray;
-    padding: 10px;
     border-radius: 5px;
     background-color: lightpink;
 }
@@ -53,32 +52,16 @@ td{
 
 @media screen and (min-width:688px) 
  and (max-width:992px){
-    .main-part{
-        margin: 5% 8% 0% 8%;
-    }
     .menu-bar{
         margin: 0px;
         margin-bottom: 30px;
-    }
-    .menu-item{
-        padding: 0px;
-        margin-left: 45px;
     }
     .menu-item a{
         font-size: 18px;
         padding: 0px;
     }
-    .main-container{
-        margin-left: 0px;
-        align-items: flex-end;
-    }
     .group-line{
         grid-template-columns: repeat(2, 1fr);
-        margin-left: 8%;
-        align-items: flex-end;
-    }
-    .group{
-        padding: 0px;
     }
     table{
         font-size: 20px;

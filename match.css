@@ -158,17 +158,4 @@
         visibility: hidden; 
     }
 }
-@media screen and (min-width:993px) and (max-width:1400px) {
-    .main-part{
-        margin: 5% 10% 0% 10%;
-    }
-    .main-container{
-        width: 100%;
-    }
-   .match-time{
-    width: 100%;
-   }
-   .menu-bar{
-    width: 100%;
-   }
-}
+@media screen and (min-width:993px) and (max-width:1400px)
